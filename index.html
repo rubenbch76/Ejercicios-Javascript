@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Javascript</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+
+    <header><h1>EJERCICIOS JAVASCRIPT</h1></header>
+
+    <div id="global">
+    <section>
+
+        <h2>1.- Hello World</h2>
+        <div id="helloDiv"></div>
+
+        <h2>2.- 3 + 5</h2>
+        <div id="fivePlusThreeDiv"></div>
+
+        <h2>3.- Escribir nombre y mostrarlo</h2>
+        <div>        
+            <input type="text" placeholder="Escriba su nombre" id="nameText" required>
+            <button onclick="showName()">Aceptar</button>
+        </div>
+        <div id="nameDiv"></div>
+
+        <h2>4.- Suma de 2 números</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="num1" required>
+            <input type="number" placeholder="Escriba otro número" id="num2" required>
+            <button onclick="addTwoNumbers()">Aceptar</button>
+        </div>
+        <div id="resultExerciseFour"></div>
+
+        <h2>5.- Mayor de 2 números</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="num3" required>
+            <input type="number" placeholder="Escriba otro número" id="num4" required>
+            <button onclick="greaterTwoNumbers()">Aceptar</button>
+        </div>
+        <div id="resultExerciseFive"></div>
+
+        <h2>6.- Mayor de 3 números</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="num1of3" required>
+            <input type="number" placeholder="Escriba otro número" id="num2of3" required>
+            <input type="number" placeholder="Escriba otro mas" id="num3of3" required>
+            <button onclick="greaterThreeNumbers()">Aceptar</button>
+        </div>
+        <div id="resultExerciseSix"></div>
+
+        <h2>7.- Número divisible por 2</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="numExerciseSeven" required>
+            <button onclick="divByTwo()">Aceptar</button>
+        </div>
+        <div id="resultExerciseSeven"></div>
+
+        <h2>8 / 9 / 10 / 11.- Vocales en texto</h2>
+        <div>
+            <input type="text" placeholder="Escriba un texto" id="textToConvert" required>
+            <button id="buttonVocals" onclick="searchVocals()">Descubre vocales</button>
+        </div>
+        <div id="resultExerciseEight"></div>
+
+    </section>  
+
+    <section>
+
+        <h2>12 / 13.- Número divisible por 2, 3 , 5 o 7</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="numExerciseTwelve" required>
+            <button onclick="divBy2357()">Aceptar</button>
+        </div>
+        <div id="resultExerciseTwelve"></div>
+
+        <h2>14.- Divisores de un Número</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="numExerciseFourteen" required>
+            <button onclick="divsOfNumber()">Aceptar</button>
+        </div>
+        <div id="resultExerciseFourteen"></div>
+
+        <h2>15.- Divisores comunes de dos Números</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="numOneExerciseFifteen" required>
+            <input type="number" placeholder="Escriba otro número" id="numTwoExerciseFifteen" required>
+            <button onclick="divsOfTwoNumbers()">Aceptar</button>
+        </div>
+        <div id="resultExerciseFifteen"></div>
+
+        <h2>16.- ¿Número primo?</h2>
+        <div>        
+            <input type="number" placeholder="Escriba un número" id="numExerciseSixteen" required>
+            <button onclick="primeNum()">Aceptar</button>
+        </div>
+        <div id="resultExerciseSixteen"></div>
+
+        <h2>17.- ¿Mayor de edad?</h2>
+        <div>        
+            <input type="number" placeholder="Escriba la edad" id="numExerciseSeventeen" required>
+            <button onclick="isAdult()">Aceptar</button>
+        </div>
+        <div id="resultExerciseSeventeen"></div>
+
+        <h2>18.- Calificación Examen</h2>
+        <div>        
+            <input type="number" placeholder="Escriba nota entre 0 y 10" id="numExerciseEighteen" required>
+            <button onclick="examGrade()">Aceptar</button>
+        </div>
+        <div id="resultExerciseEighteen"></div>
+
+        <h2>19.- Cálculo letra DNI</h2>
+        <div>        
+            <input type="text" maxlength="8" size="30" placeholder="Escriba un número entre 0 y 99.999.999" id="numExerciseNineteen" required>
+            <button onclick="dni()" id="buttonNineteen">Aceptar</button>
+        </div>
+        <div id="resultExerciseNineteen"></div>
+
+    </section>
+    </div>
+
+
+
+
+    <script src="./scripts/1_helloworld.js"></script>
+    <script src="./scripts/2_five_plus_three.js"></script>
+    <script src="./scripts/3_show_name.js"></script>
+    <script src="./scripts/4_add_two_numbers.js"></script>
+    <script src="./scripts/5_greater_two_numbers.js"></script>
+    <script src="./scripts/6_greater_three_numbers.js"></script>
+    <script src="./scripts/7_div_by_two.js"></script>
+    <script src="./scripts/8_vocals.js"></script>
+    <script src="./scripts/12_div_by_2357.js"></script>
+    <script src="./scripts/14_divs_number.js"></script>
+    <script src="./scripts/15_divs_common_two_numbers.js"></script>
+    <script src="./scripts/16_prime_num.js"></script>
+    <script src="./scripts/17_is_adult.js"></script>
+    <script src="./scripts/18_exam_grade.js"></script>
+    <script src="./scripts/19_dni.js"></script>
+    <!-- <script src="./scripts/enter_detect.js" type="module"></script> -->
+
+    <header><br><br><hr></header>
+
+</body>
+</html>
